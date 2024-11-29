@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulo del sitio</title>
+    <style>
+        /* Punto 1 */
+        a[href^="https://"]{
+            color: green;
+        }
+        /* Punto 2 */
+        img[src $= "jpg"]{
+            border: 10px solid red;
+        }
+        /* Punto 3 */
+        p[id="especial"]{
+            background-color: yellow;
+        }
+        /* Punto 4 */
+        p[class*="importante"]{
+            font-weight: bold;
+        }
+        /* Punto 5 */
+        a[href^="http://"][href$=".org"]{
+            text-decoration: underline double;
+        }
+        /* Punto 6 */
+        div[class*="contenedor"][id*="principal"]{
+            background-color: lightgray;
+        }
+        /* Punto 7 */
+        button[name^="submit"]{
+            background-color: green;
+        }
+        span[class$="cursiva"]{
+            font-style: italic;
+        }
+        /* Punto 9 */
+        input[type*="text"]{
+            color: blue;
+        }
+        /* Punto 10 */
+        ul[class*="navegacion"] li{
+            list-style-type: none;
+        }
+</style>
+</head>
+<body>
+    <h2>Punto 1</h2>
+    <a href="https://www.google.com">Link a google</a>
+    <br>
+    <a href="http://somebooks.es">Link a somebooks</a>
+    <br>
+    <a href="https://www.youtube.com">Link a youtube</a>
+    <br>
+    <h2>Punto 2</h2>
+    <p>Imagen con extension .avif</p>
+    <img width="100%" src="mclarenw1.avif" alt="Imagen de placeholder">
+    <p>Imagen con extension .jpg</p>
+    <img width="100%" src="mclarenw1.jpg" alt="Imagen de placeholder">
+    <h2>Punto 3 y 4</h2>
+    <p id="especial">Hola buenas tardes</p>
+    <p class="importante">Hola buenas tardes</p>
+    <p class="importante">Hola buenas tardes</p>
+    <p>Hola buenas tardes</p>
+    <h2>Punto 5</h2>   
+    <a href="https://google.org">Link a google</a>
+    <br>
+    <a href="http://somebooks.org">Link a somebooks</a>
+    <br>
+    <a href="https://youtube.org">Link a youtube</a>
+    <br>
+    <h2>Punto 6</h2>
+    <div class="contenedor" id="texto principal">
+        <p>Hola buenas tardes</p>
+    </div>
+    <div class="contenedor" id="texto secundario">
+        <p>Hola buenas tardes</p>
+    </div>
+    <h2>Punto 7</h2>
+    <button name="submit boton" type="button">Boton 1</button>
+    <button name="boton submit" type="button">Boton 2</button>
+    <button name="buenas" type="button">Boton 3</button>
+    <h2>Punto 8</h2>
+    <span class="texto normal">Texto normal</span>
+    <span class="cursiva texto importante">Texto importante</span>
+    <span class="texto cursiva">Texto cursiva</span>
+    <h2>Punto 9</h2>
+    <input type="text" name="nombre" placeholder="Nombre">
+    <input type="apellido" name="apellido" placeholder="Apellido">
+    <input type="email" name="email" placeholder="Email">
+    <h2>Punto 10</h2>
+    <p>Lista con clase navegacion</p>
+    <ul class="navegacion">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <p>Lista con clase items</p>
+    <ul class="items">
+        <li>Item 4</li>
+        <li>Item 5</li>
+        <li>Item 6</li>
+    </ul>
+</body>
+</html>
