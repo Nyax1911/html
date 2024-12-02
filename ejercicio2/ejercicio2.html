@@ -22,8 +22,16 @@
             border: 10px solid red;
         }
         /* Punto 5 */
-        article article > h2:first-child {
+        article > h2:first-child {
             color: green;
+        }
+        /* Punto 6 */
+        div p:not(:first-child){
+            background-color: gray;
+        }
+        /* Punto 7 */
+        ul li:nth-child(even):not(:nth-child(4)){
+            background-color: yellow;
         }
     </style>
 </head>
@@ -63,6 +71,26 @@
         <h2>Titulo</h2>
         <h2>Subtitulo</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
-    </article>
+    </article>    
+    <h2>Punto 6</h2>
+    <div>
+        <p>Hola buenas tardes</p>
+        <p>Adios buenas noches</p>
+        <p>Hasta luego</p>
+        <p>Hasta luego</p>
+    </div>
+    <h2>Punto 7</h2>
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+        <li>Elemento 6</li>
+        <li>Elemento 7</li>
+        <li>Elemento 8</li>
+        <li>Elemento 9</li>
+        <li>Elemento 10</li>
+    </ul>
 </body>
 </html>
