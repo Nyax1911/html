@@ -33,6 +33,10 @@
         ul li:nth-child(even):not(:nth-child(4)){
             background-color: yellow;
         }
+        /* Punto 8 */
+        form button:last-child:not([type="submit"]){
+            background-color: red;
+        }
     </style>
 </head>
 <body>
@@ -92,5 +96,14 @@
         <li>Elemento 9</li>
         <li>Elemento 10</li>
     </ul>
+    <h2>Punto 8</h2>
+    <form>
+        <input type="text" name="nombre" placeholder="Nombre">
+        <input type="text" name="apellido" placeholder="Apellido">
+        <button type="submit">Enviar</button>
+        <button type="reset">Reset</button>
+    </form>
+    <h2>Punto 9</h2>
+    
 </body>
 </html>
