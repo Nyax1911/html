@@ -1,0 +1,15 @@
+header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 20px / 10px;
+    outline: 2px dashed red;
+    outline-offset: 15px;
+    
+}
+
+#titulo {
+    font: bold 26px Verdana, sans-serif;
+}
