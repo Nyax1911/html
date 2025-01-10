@@ -37,6 +37,18 @@
         form button:last-child:not([type="submit"]){
             background-color: red;
         }
+        /* Punto 9 */
+        p > a:only-child:not(.externo) {
+            text-decoration: none;
+            /* Lo pongo en verde para que resalte más */
+            color: green;
+        }
+        /* Punto 10 */
+        form:not(.busqueda) > input[type="text"]:first-of-type {
+            border: 5px solid red;
+        }
+        /*esta mal*/
+        
     </style>
 </head>
 <body>
@@ -104,6 +116,28 @@
         <button type="reset">Reset</button>
     </form>
     <h2>Punto 9</h2>
-    
+    <p>
+        <a href="https://somebooks.es" class="interno"> buenas</a>
+    </p>
+    <p>
+        <a href="https://somebooks.es" class="externo"> buenas</a>
+    </p>
+    <p>
+        <a href="https://somebooks.es" class="interno"> Prueba</a>
+        <a href="https://somebooks.es" class="externo"> Prueba</a>
+    </p>
+    <h2> Punto 10 </h2>
+    <h3>Primer formulario</h3>
+    <form action="action.php" class="formulario">
+        Nombre: <input type="text" name="nombre">
+        <br>
+        Edad: <input type="text" name="edad">
+        <br>
+        Segundo nombre: <input type="text" name="segundo nombre">
+    </form>
+    <h3>Segundo formulario</h3>
+    <form action="action.php" class="busqueda">
+        Busqueda: <input type="text" name="busqueda">
+    </form>
 </body>
 </html>
