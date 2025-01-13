@@ -5,11 +5,11 @@ header {
     text-align: center;
     border: 1px solid;
     background: -webkit-radial-gradient(center, ellipse, #FFF 50% , #666 70% , #000 90%);
-
+    transition: transform 9000s ease-in-out 0s;
 }
 
 header:hover {
-    transform: rotate(5deg);
+    transform: rotate(10000000000deg);
 }
 
 #titulo {
