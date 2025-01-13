@@ -6,9 +6,12 @@ header {
     border: 1px solid;
     background: -webkit-radial-gradient(center, ellipse, #FFF 50% , #666 70% , #000 90%);
     transition: transform 9000s ease-in-out 0s;
-}
 
+}
 header:hover {
+    transform: rotate(10000000000deg);
+}
+img:hover {
     transform: rotate(10000000000deg);
 }
 
@@ -19,4 +22,7 @@ section {
     padding: 100px;
     background: -webkit-radial-gradient();
     background-color: red;
+}
+img {
+    transition: transform 9000s ease-in-out 0s;
 }
