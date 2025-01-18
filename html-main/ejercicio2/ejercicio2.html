@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+    <style>
+        /* Punto 1 */
+        ul li:nth-child(3){
+            color: red;
+        }
+        /* Punto 2 */
+        section p:first-child{
+            font-size: 30px;
+        }
+        /* Punto 3 */
+        div :last-child{
+            border: 5px solid blue;
+        }
+        /* Punto 4 */
+        div img:only-child{
+            border: 10px solid red;
+        }
+        /* Punto 5 */
+        article > h2:first-child {
+            color: green;
+        }
+        /* Punto 6 */
+        div p:not(:first-child){
+            background-color: gray;
+        }
+        /* Punto 7 */
+        ul li:nth-child(even):not(:nth-child(4)){
+            background-color: yellow;
+        }
+        /* Punto 8 */
+        form button:last-child:not([type="submit"]){
+            background-color: red;
+        }
+        /* Punto 9 */
+        p > a:only-child:not(.externo) {
+            text-decoration: none;
+            /* Lo pongo en verde para que resalte más */
+            color: green;
+        }
+        /* Punto 10 */
+        form:not(.busqueda) > input[type="text"]:first-of-type {
+            border: 5px solid red;
+        }
+        /*esta mal*/
+        
+    </style>
+</head>
+<body>
+    <h2>Punto 1</h2>
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+    </ul>
+    <h2>Punto 2</h2>
+    <section>
+        <p>Hola buenas tardes</p>
+        <p>Adios buenas noches</p>
+    </section>
+    <h2>Punto 3</h2>
+    <div>
+        <p>Hola buenas tardes</p>
+        <br>
+        <p>Adios buenas noches</p>
+        <div>
+            <p>Hasta luego</p>
+        </div>
+    </div>
+    <h2>Punto 4</h2>
+    <div>
+        <img width="100px" src="Unofficial_Windows_logo_variant_-_2002–2012_(Multicolored).svg.png">
+        <img width="100px" src="UbuntuCoF.svg.png">
+    </div>
+    <div>
+        <img width="100px" src="Tux.svg.png">
+    </div>
+    <h2>Punto 5</h2>
+    <article>
+        <h2>Titulo</h2>
+        <h2>Subtitulo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+    </article>    
+    <h2>Punto 6</h2>
+    <div>
+        <p>Hola buenas tardes</p>
+        <p>Adios buenas noches</p>
+        <p>Hasta luego</p>
+        <p>Hasta luego</p>
+    </div>
+    <h2>Punto 7</h2>
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+        <li>Elemento 6</li>
+        <li>Elemento 7</li>
+        <li>Elemento 8</li>
+        <li>Elemento 9</li>
+        <li>Elemento 10</li>
+    </ul>
+    <h2>Punto 8</h2>
+    <form>
+        <input type="text" name="nombre" placeholder="Nombre">
+        <input type="text" name="apellido" placeholder="Apellido">
+        <button type="submit">Enviar</button>
+        <button type="reset">Reset</button>
+    </form>
+    <h2>Punto 9</h2>
+    <p>
+        <a href="https://somebooks.es" class="interno"> buenas</a>
+    </p>
+    <p>
+        <a href="https://somebooks.es" class="externo"> buenas</a>
+    </p>
+    <p>
+        <a href="https://somebooks.es" class="interno"> Prueba</a>
+        <a href="https://somebooks.es" class="externo"> Prueba</a>
+    </p>
+    <h2> Punto 10 </h2>
+    <h3>Primer formulario</h3>
+    <form action="action.php" class="formulario">
+        Nombre: <input type="text" name="nombre">
+        <br>
+        Edad: <input type="text" name="edad">
+        <br>
+        Segundo nombre: <input type="text" name="segundo nombre">
+    </form>
+    <h3>Segundo formulario</h3>
+    <form action="action.php" class="busqueda">
+        Busqueda: <input type="text" name="busqueda">
+    </form>
+</body>
+</html>
