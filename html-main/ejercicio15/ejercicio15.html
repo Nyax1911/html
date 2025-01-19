@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 14</title>
+    <style>
+        @font-face {
+            font-family: neon;
+            src: url("NEON WORLD DEMO.ttf") format("truetype");
+        }
+        @keyframes parpadeo1 {
+            0% , 20% , 22% , 95% , 98% , 99% {
+                color: #ffabe3;
+                text-shadow: 0 0 1px #ff66cc, 0 0 1px #ff66cc, 0 0 20px #ff33cc, 0 0 40px #ff33cc;
+            }
+            21% , 96% , 97% , 100% {
+                color: #47062d;
+                text-shadow: none;
+            }
+        }
+        @keyframes parpadeo {
+            0% {
+                color: #ffabe3;
+                text-shadow: 0 0 1px #ff66cc, 0 0 1px #ff66cc, 0 0 20px #ff33cc, 0 0 40px #ff33cc;
+            }
+            99% {
+                color: #ffabe3;
+                text-shadow: 0 0 1px #ff66cc, 0 0 1px #ff66cc, 0 0 1px #ff33cc, 0 0 20px #ff33cc, 0 0 40px #ff33cc;
+            }
+            100% {
+                color: #47062d;
+                text-shadow: none;
+            }
+        }
+        @keyframes parpadeohover {
+            0% , 100% {
+                color: #ffabe3;
+                text-shadow: 0 0 1px #ff66cc, 0 0 1px #ff66cc, 0 0 20px #ff33cc, 0 0 40px #ff33cc;
+            }
+            50% {
+                color: #47062d;
+                text-shadow: none;
+            }
+        }
+        h2 {
+            text-align: center;
+        }
+        body {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://images.pexels.com/photos/207142/pexels-photo-207142.jpeg');
+            background-size: 90%;
+            background-repeat: repeat;
+            background-position: center;
+        }
+        h1 {
+            text-align: center;
+            color: #ffabe3;
+            text-shadow: 0 0 1px #ff66cc, 0 0 1px #ff66cc, 0 0 1px #ff33cc, 0 0 20px #ff33cc, 0 0 40px #ff33cc;
+            font-family: 'neon';
+            padding-top: 100px;
+            animation: parpadeo 20s infinite linear;
+        }
+        .Sabados {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            flex-direction: column;
+            transform: rotate(-10deg);
+            width: 50%;
+            margin: 50px auto;
+            background-color: rgba(68, 68, 68, 0.5);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 0 10px rgba(255, 102, 204, 0.5);
+            filter: grayscale(100%);
+            transition: all 1s ease-in-out;
+        }
+        .texto-imagen {
+            color: rgba(0, 225, 255, 0.712);
+            font-size: 20px;
+        }
+        .Sabados:hover {
+            transform: rotate(0deg);
+            filter: grayscale(0%);
+            transition: all 1s ease-in-out;
+        }
+        h1:hover {
+            animation: parpadeohover 0.5s infinite linear;
+        }
+    </style>
+</head>
+<body>
+    <h1>Noche de Jazz <br>🎙️</h1>
+    <section class="Sabados">
+        <p class="texto-imagen">Todos los sabados</p>
+        <img src="Jazz.webp" alt="Jazz" width="300px" class="imagen">
+        <p class="texto-imagen">Musica en vivo</p>
+    </section>
+</body>
+</html>
