@@ -4,31 +4,31 @@
 }
 #caja-1 {
     float: left;
-    width: 140px;
+    width: 120px;
     height: 50px;
     margin: 5px;
     background-color: #aaa;
 }
 #caja-2 {
     float: left;
-    width: 140px;
+    width: 120px;
     height: 50px;
     margin: 5px;
-    background-color: #bbb;
+    background-color: #ccc;
 }
 #caja-3 {
-    float: left;
-    width: 140px;
+    float: right;
+    width: 120px;
     height: 50px;
     margin: 5px;
     background-color: #aaa;
 }
 #caja-4 {
-    float: left;
-    width: 140px;
+    float: right;
+    width: 120px;
     height: 50px;
     margin: 5px;
-    background-color: #bbb;
+    background-color: #ccc;
 }
 .restaurar {
     clear: both;
