@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #0078D4;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .container {
+            width: 100%;
+        }
+
+        .sidebar {
+            float: left;
+            width: 25%;
+            background-color: #f4f4f4;
+            padding: 15px;
+            box-shadow: 1px 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .main-content {
+            float: left;
+            width: 75%;
+            padding: 15px;
+        }
+
+        footer {
+            clear: both;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Encabezado</h1>
+    </header>
+
+    <div class="container">
+        <div class="sidebar">
+            <h2>Barra Lateral</h2>
+            <p>Contenido de la barra lateral.</p>
+        </div>
+
+        <div class="main-content">
+            <h2>Contenido Principal</h2>
+            <p>Este es el contenido principal de la página.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Pie de página</p>
+    </footer>
+</body>
+</html>

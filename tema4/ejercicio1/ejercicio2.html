@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio 1</title>
+    <title>Ejercicio 2</title>
     <style>
-        /* Punto 1 */
+        #cajapadre{
+            width: 400px;
+            border: 1px solid;
+        }
         #caja-1{
             float: left;
             width: 100px;
@@ -19,16 +22,26 @@
             background-color: blue;
         }
         #caja-3{
-            float: left;
+            float: right;
             width: 100px;
             height: 100px;
             background-color: red;
         }
+        #caja-4{
+            clear: both;
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+        }
     </style>
 </head>
 <body>
+    <div id="cajapadre">
         <div id="caja-1">Caja 1</div>
         <div id="caja-2">Caja 2</div>
         <div id="caja-3">Caja 3</div>
+        <div id="caja-4">Caja 4</div>
+    </div>
+
 </body>
 </html>
