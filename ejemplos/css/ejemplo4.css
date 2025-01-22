@@ -1,35 +1,10 @@
-#cajapadre {
-    width: 600px;
+#articulonoticias {
+    width: 580px;
+    padding: 10px;
     border: 1px solid;
-}
-#caja-1 {
-    float: left;
-    width: 120px;
-    height: 50px;
-    margin: 5px;
-    background-color: #aaa;
-}
-#caja-2 {
-    float: left;
-    width: 120px;
-    height: 50px;
-    margin: 5px;
-    background-color: #ccc;
-}
-#caja-3 {
-    float: right;
-    width: 120px;
-    height: 50px;
-    margin: 5px;
-    background-color: #aaa;
-}
-#caja-4 {
-    float: right;
-    width: 120px;
-    height: 50px;
-    margin: 5px;
-    background-color: #ccc;
-}
-.restaurar {
-    clear: both;
+    column-count: 2;
+    column-gap: 20px;
+    column-rule-style: dashed;
+    column-rule-width: 5px;
+    column-rule-color: #000;
 }
