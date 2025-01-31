@@ -9,14 +9,15 @@
 
 }
 #caja-1{
-    flex: 1 1 200px;
+    max-width: 50px;
+    flex: 1;
 }
 #caja-2{
-    flex: 1 5 200px;
+    flex: 1;
 }
 #caja-3{
-    flex: 1 5 200px;
+    flex: 1;
 }
 #caja-4{
-    flex: 1 5 200px;
+    flex: 1;
 }
