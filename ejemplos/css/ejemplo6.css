@@ -3,7 +3,7 @@
     width: 600px;
     height: 200px;
     border: 1px solid;
-    align-items: flex-start;
+    align-items: baseline;
     
 }
 #cajapadre > div {
@@ -14,17 +14,14 @@
 }
 #caja-1{
     flex: 1;
-    order: 3;
 }
 #caja-2{
     flex: 1;
-    order: 1;
+    font-size: 36px;
 }
 #caja-3{
     flex: 1;
-    order: 2;
 }
 #caja-4{
     flex: 1;
-    order: 4;
 }
