@@ -1,6 +1,10 @@
 #cajapadre {
     display: flex;
     width: 600px;
+    height: 200px;
+    border: 1px solid;
+    align-items: flex-start;
+    
 }
 #cajapadre > div {
     height: 145px;
@@ -9,15 +13,18 @@
 
 }
 #caja-1{
-    max-width: 50px;
     flex: 1;
+    order: 3;
 }
 #caja-2{
     flex: 1;
+    order: 1;
 }
 #caja-3{
     flex: 1;
+    order: 2;
 }
 #caja-4{
     flex: 1;
+    order: 4;
 }
