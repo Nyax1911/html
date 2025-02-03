@@ -1,27 +1,25 @@
 #cajapadre {
     display: flex;
     width: 600px;
-    height: 200px;
     border: 1px solid;
-    align-items: baseline;
-    
+    justify-content: center;
+    flex-wrap: wrap;
 }
 #cajapadre > div {
-    height: 145px;
+    height: 40px;
     margin: 5px;
     background-color: #ccc;
 
 }
 #caja-1{
-    flex: 1;
+    width: 100px;
 }
 #caja-2{
-    flex: 1;
-    font-size: 36px;
+    width: 100px;
 }
 #caja-3{
-    flex: 1;
+    width: 100px;
 }
 #caja-4{
-    flex: 1;
+    flex: 1 1 100px;
 }
