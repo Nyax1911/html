@@ -1,9 +1,11 @@
 #cajapadre {
     display: flex;
     width: 600px;
+    height: 200px;
     border: 1px solid;
-    justify-content: center;
     flex-wrap: wrap;
+    align-content: flex-start;
+    
 }
 #cajapadre > div {
     height: 40px;
@@ -12,14 +14,14 @@
 
 }
 #caja-1{
-    width: 100px;
+    flex: 1 1 100px;
 }
 #caja-2{
-    width: 100px;
+    flex: 1 1 100px;
 }
 #caja-3{
-    width: 100px;
+    flex: 1 1 100px;
 }
 #caja-4{
-    flex: 1 1 100px;
+    flex: 1 1 400px;
 }
