@@ -1,0 +1,111 @@
+/* Estilos generales del body */
+body {
+    font-family: sans-serif; /* Fuente sans-serif para todo el body */
+    margin: 0; /* Elimina márgenes por defecto del body */
+    background-color: #f4f4f4; /* Fondo gris claro */
+    color: #333; /* Color de texto principal gris oscuro */
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+
+img {
+    width: 100px;
+}
+
+/* Estilos de la cabecera */
+#cabeceralogo {
+    background-color: #333; /* Fondo oscuro para la cabecera */
+    color: white; /* Texto blanco en la cabecera */
+    padding: 20px; /* Espacio interior en la cabecera */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+#cabeceralogo h1 {
+    margin: 0; /* Elimina el margen por defecto del h1 */
+}
+
+/* Estilos del menú principal */
+#menuprincipal {
+    background-color: #eee; /* Fondo gris claro para el menú */
+    padding: 10px 0; /* Espacio vertical en el menú */
+}
+
+#menuprincipal ul {
+    list-style-type: none; /* Quita los puntos de la lista */
+    padding: 0; /* Elimina el padding de la lista */
+    margin: 0; /* Elimina el margen de la lista */
+    text-align: center; /* Centra el texto del menú */
+}
+
+#menuprincipal li {
+    display: inline; /* Muestra los elementos de la lista en línea horizontal */
+    margin: 0 10px; /* Espacio horizontal entre los elementos del menú */
+}
+
+#menuprincipal a {
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: #333; /* Color de los enlaces */
+    padding: 5px 10px; /* Espacio alrededor de los enlaces */
+    border-radius: 5px; /* Bordes redondeados para los enlaces */
+}
+
+#menuprincipal a:hover {
+    background-color: #ddd; /* Fondo gris más oscuro al pasar el ratón */
+    color: black; /* Color del texto más oscuro al pasar el ratón */
+}
+
+/* Estilos de la sección de artículos principales */
+#articulosprincipales {
+    padding: 20px; /* Espacio interior en la sección de artículos */
+}
+/* Estilos para los artículos principales */
+#articulosprincipales article {
+    display: flex; /* Activa Flexbox en el article */
+    flex-direction: row; /* Coloca los elementos en fila (izquierda a derecha) - aunque es el valor por defecto, es bueno explicitarlo */
+    margin-bottom: 20px; /* Separación entre artículos (esto ya lo tenías, lo mantengo) */
+    background-color: white; /* Fondo blanco para los artículos (esto ya lo tenías, lo mantengo) */
+    padding: 20px; /* Espacio interior en los artículos (esto ya lo tenías, lo mantengo) */
+    border-radius: 5px; /* Bordes redondeados (esto ya lo tenías, lo mantengo) */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave (esto ya lo tenías, lo mantengo) */
+}
+
+/* Estilos para la figura (imagen) dentro de los artículos */
+#articulosprincipales article img {
+    margin-right: 20px; /* Añade un margen derecho para separar la imagen del texto */
+}
+
+
+#articulosprincipales article h1 {
+    color: #555; /* Color de los títulos de los artículos */
+}
+
+#articulosprincipales article p {
+    color: #666; /* Color del texto de los artículos */
+}
+
+/* Estilos de la información adicional (aside) */
+#infoadicional {
+    background-color: #eee; /* Fondo gris claro para el aside */
+    padding: 20px; /* Espacio interior en el aside */
+    border-radius: 5px; /* Bordes redondeados para el aside */
+}
+
+/* Estilos del pie de página */
+#pielogo {
+    background-color: #333; /* Fondo oscuro para el pie de página */
+    color: white; /* Texto blanco en el pie de página */
+    padding: 20px; /* Espacio interior en el pie de página */
+    text-align: center; /* Centra el texto del pie de página */
+}
+
+#pielogo h1, #pielogo section, #pielogo address, #pielogo small {
+    margin-bottom: 10px; /* Espacio inferior para los elementos del pie de página */
+}
+
+#pielogo a {
+    color: white; /* Enlaces blancos en el pie de página */
+    text-decoration: none; /* Quita el subrayado de los enlaces del pie de página */
+}
+
+#pielogo a:hover {
+    text-decoration: underline; /* Subraya los enlaces al pasar el ratón */
+}
