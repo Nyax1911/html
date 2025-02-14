@@ -1,94 +1,123 @@
 body {
     margin: 0;
-    line-height: 1.6;
+    padding: 0;
 }
-
+div {
+    box-sizing: border-box;
+}
+.recuperar {
+    clear: both; 
+}
 #cabeceralogo {
-    background-color: #333;
-    color: white;
+    background-color: #35424a;
+    color: #ffffff; 
     padding: 20px;
-    text-align: center;
+    text-align: center; 
 }
-
 #cabeceralogo h1 {
     margin: 0;
 }
-
 #menuprincipal {
-    background-color: #eee;
+    background-color: #e0e0e0;
     padding: 10px 0;
 }
-
 #menuprincipal ul {
-    list-style-type: none;
     padding: 0;
     margin: 0;
     text-align: center;
 }
-
 #menuprincipal li {
     display: inline;
-    margin: 0 10px;
 }
-
 #menuprincipal a {
-    text-decoration: none;
-    color: #333;
-    padding: 5px 10px;
-    border-radius: 5px;
+    color: #000000;
+    padding: 10px 15px;
 }
-
-#menuprincipal a:hover {
-    background-color: #ddd;
-    color: black;
+main {
+    width: 80%; 
+    margin: 20px auto;
 }
-
-#articulosprincipales article {
+main > div {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-wrap: wrap;
+}
+#articulosprincipales {
+    flex: 3; 
+    margin-right: 20px; 
+}
+#articulosprincipales article {
+    background-color: #fff;
+    padding: 20px;
     margin-bottom: 20px;
-    background-color: white;
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#articulosprincipales article h1 {
+    color: #000000;
+    font-size: 30px;
+    margin-top: 0;
+}
+#articulosprincipales article time {
+    color: #777;
+}
+#articulosprincipales figure img {
+    width: 100%;
+    height: auto;
+}
+section + h1 {
+    margin-right: 10px;
+}
+#infoadicional {
+    flex: 1;
+    background-color: #ffbb55;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: fit-content; 
 }
-
-#articulosprincipales article figure {
-    margin-right: 30px;
-}
-
-#articulosprincipales article time div {
-    display: inline-block;
-    margin-right: 5px;
-}
-
-#infoadicional {
-    background-color: #eee;
-    padding: 20px;
-    border-radius: 5px;
-}
-
 #pielogo {
-    background-color: #333;
-    color: white;
-    padding: 20px;
+    background-color: #35424a; 
+    color: #ffffff; 
+    padding: 20px 0;
     text-align: center;
 }
-
-#pielogo h1, #pielogo section, #pielogo address, #pielogo small {
-    margin-bottom: 10px;
+#pielogo div {
+    width: 80%;
+    margin: auto; 
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap;
 }
-
+#pielogo h1 {
+    font-size: 30px;
+}
+#pielogo section {
+    margin: 10px 20px;
+    text-align: left;
+}
+#pielogo p, #pielogo address {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
 #pielogo a {
-    color: white;
-    text-decoration: none;
+    color: #ffffff; 
 }
-
-#pielogo a:hover {
-    text-decoration: underline;
+#pielogo small {
+    display: block; 
+    margin-top: 20px;
+    font-size: 15px;
+    color: #ccc; 
 }
-
-img {
-    width: 100px;
+time {
+    display: flex;
+    align-items: center; 
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    width: auto;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); 
+}
+.numerodia {
+    font-size: 30px;
+    margin-right: 10px; 
 }
