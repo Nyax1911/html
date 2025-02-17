@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+section {
+    float: left;
+    width: 100%;
+    padding-right: 260px;
+    margin-right: -240px;
+    box-sizing: border-box;
+}
+section > div {
+    padding: 20px;
+    background-color: #999;
+}
+aside {
+    float: left;
+    width: 240px;
+    padding: 20px;
+    background-color: #ccc;
+    box-sizing: border-box;
+}
+.recuperar  {
+    clear: both;
+}

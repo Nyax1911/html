@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    line-height: 1.6;
+}
+
+#cabeceralogo {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#cabeceralogo h1 {
+    margin: 0;
+}
+
+#menuprincipal {
+    background-color: #eee;
+    padding: 10px 0;
+}
+
+#menuprincipal ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#menuprincipal li {
+    display: inline;
+    margin: 0 10px;
+}
+
+#menuprincipal a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#menuprincipal a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#articulosprincipales article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#articulosprincipales article figure {
+    margin-right: 30px;
+}
+
+#articulosprincipales article time div {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#infoadicional {
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#pielogo {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#pielogo h1, #pielogo section, #pielogo address, #pielogo small {
+    margin-bottom: 10px;
+}
+
+#pielogo a {
+    color: white;
+    text-decoration: none;
+}
+
+#pielogo a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 100px;
+}
