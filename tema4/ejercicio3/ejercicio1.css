@@ -78,10 +78,11 @@ article time {
     border-radius: 5px;
 }
 #articulosprincipales figure img {
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 section + h1 {
+    color: #FFFFFF;
     margin-right: 10px;
 }
 #infoadicional {
