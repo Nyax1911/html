@@ -1,6 +1,9 @@
 body {
     margin: 0;
     padding: 0;
+    background-image: url(playa-de-maldivas-j0c8oslnjo96ayr4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 div {
     box-sizing: border-box;
@@ -53,12 +56,26 @@ main > div {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 #articulosprincipales article h1 {
+    margin-left: 10px;
     color: #000000;
     font-size: 30px;
     margin-top: 0;
 }
-#articulosprincipales article time {
-    color: #777;
+article {
+    position: relative;
+    padding: 0px 40px 20px 40px;
+}
+
+article time {
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -70px;
+    width: 80px;
+    padding: 15px 5px;
+    background-color: #094660;
+    box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.7);
+    border-radius: 5px;
 }
 #articulosprincipales figure img {
     width: 100%;
@@ -118,6 +135,12 @@ time {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); 
 }
 .numerodia {
-    font-size: 30px;
-    margin-right: 10px; 
+    font: bold 36px Verdana, sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    }
+.nombredia {
+    font: 12px Verdana, sans-serif;
+    color: #FFFFFF;
+    text-align: center;
 }
