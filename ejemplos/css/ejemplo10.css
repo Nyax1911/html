@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+section {
+    float: left;
+    width: 61%;
+    padding: 2%;
+    margin-right: 5%;
+    background-color: #999;
+}
+aside {
+    float: left;
+    width: 26%;
+    padding: 2%;
+    background-color: #ccc;
+}
+#logo {
+    width: 275px;
+    height: 60px;
+    background: url("../fotos/imagen.jpg") no-repeat;
+}
+.recuperar {
+    clear: both;
+}
+article {
+    font: bold 1.5em Georgia, sans-serif;
+}
+article h1 {
+    font: bold 2rem Georgia, sans-serif;
+}
+article img {
+    width: 100%;
+
+}
+aside h1 {
+    font: bold 1.2em Georgia, sans-serif;
+}
+aside p {
+    font: bold 1em Georgia, sans-serif;
+}
